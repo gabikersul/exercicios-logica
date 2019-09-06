@@ -1,0 +1,5 @@
+x, y = list(map(int, input('Informe 2 valores inteiros: ').split()))
+resto_de_div = int(x % y)
+quociente = float(x // y)
+print('O quociente é: ', quociente)
+print('O resto de divisão é: ', resto_de_div)

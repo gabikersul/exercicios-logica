@@ -1,0 +1,5 @@
+x, y, z = list(map(int, input('Digite 3 valores inteiros: ').split()))
+print('A multiplicação de:', x, y, z, 'é', x * y * z)
+print('A soma de:', x, y, z, 'é', x + y + z)
+print('A subtração de:', x, y , z, 'é', x - y - z)
+print('A soma de todos juntos: ', (x * y * z) + (x + y + z) + (x - y - z))
